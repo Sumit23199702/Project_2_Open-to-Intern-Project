@@ -13,11 +13,11 @@ router.get("/test-me", function (req, res) {
 
 router.post('/functionup/colleges', CollegeController.createCollege)
 
-//---------------------------------------------2nd API --------------------------------***
+//---------------------------------------------2nd API ----------------------***
 
 router.post('/functionup/interns', InternComtroller.createIntern)
 
-//---------------------------------------------3rd API--------------------------------***
+//---------------------------------------------3rd API-----------------------***
 
 router.get('/functionup/collegeDetails', CollegeController.getCollegeDetails)
 
